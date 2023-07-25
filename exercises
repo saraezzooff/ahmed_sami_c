@@ -1,1 +1,33 @@
 
+ 
+	// Create a program that takes length and width and finds the perimeter & area of a rectangle.
+	
+	float L , W;
+	cout<<"Enter the Length: ";
+	cin>> L;
+	cout<<"Enter the Width: ";
+	cin>> W;
+	cout<<"Perimeter = "<<(L + W) * 2<<"\n";
+	cout<<"Area = "<< L * W<<"\n";
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////    
+ //create a program get the square of a number , use two different ways 
+    
+    int x;
+    cout<<"Enter a number : "; cin>>x;
+    cout<<"Number Squared: "<<x * x <<"\n";
+    cout<<"Number Squared: "<<pow(x,2);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
+  //C++ Program to Calculate Area of Circle. use 2 diff. ways 
+
+    float radius, area, area2;
+    const float PI = 3.14;   
+    cout<<"Pi = "<<PI<<endl;
+    cout << "Enter Radius: ";
+    cin >> radius;
+    area = PI * radius * radius;
+    area2 = PI * pow(radius,2);
+    cout<<area2<<endl;
+    cout << area; */ 
